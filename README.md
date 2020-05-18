@@ -15,15 +15,11 @@ In the [*workshop*](workshop/) folder you will learn to:
 3. Evaluate a model's performance based on real observations.
 4. How to evaluate the value of a Forecast compared to another.
 
-## MLOps with AWS Step Functions
+## Amazon Forecast Samples
+Head to [Amazon Forecast Samples](https://github.com/aws-samples/amazon-forecast-samples) 
 
-This is a place where you will find various examples covering Machine Learning Operations best practices.
-
-To get started navigate to the [ml_ops](https://github.com/aws-samples/amazon-forecast-samples/tree/master/ml_ops/visualization_blog) github folder and follow the README instructions.
-
-In the [*ml_ops*](https://github.com/aws-samples/amazon-forecast-samples/tree/master/ml_ops/visualization_blog) github folder you will learn how to:
-
-1. Deploy an automated end to end pipeline from training to visualization of your Amazon Forecasts in Amazon QuickSight
+1. Deep dive on more Amazon Forecast examples. 
+2. Learn more about [*MLOps*](https://github.com/aws-samples/amazon-forecast-samples/tree/master/ml_ops/visualization_blog) with AWS Step Functions 
 
 ## License Summary
 
