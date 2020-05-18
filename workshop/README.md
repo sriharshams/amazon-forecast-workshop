@@ -16,8 +16,8 @@ In the Notebooks you will learn to:
 The steps below outline the process of building your own time-series prediction models, evaluating them, and then cleaning up all of yuour resources to prevent any unwanted charges. To get started execute the following steps.
 
 1. Deploy the CloudFormation Template below or build a local Jupyter environment with the AWS CLI installed and configured for your IAM account.
-1. [Train_Evaluate_Predictors.ipynb](notebooks/Train_Evaluate_Predictors.ipynb) - Guides you through preparing your dataset to be used with Amazon Forecast. Explains how to use the dataset you prepared to build your first model. Takes the model you just created and evaluates its performance against real observed measurements.
-1. [Cleanup.ipynb](notebooks/Cleanup.ipynb) - Deletes Amazon Forecast resources and IAM role created in above notebooks.
+1. [Incorporating_Related_Time_Series_dataset_to_your_Predictor.ipynb](notebooks/Incorporating_Related_Time_Series_dataset_to_your_Predictor.ipynb) - Guides you through preparing your dataset to be used with Amazon Forecast. Explains how to use the dataset you prepared to build your model. Takes the model you just created and evaluates its performance using Deep AR Plus and Prophet algorithms.
+
 
 Each notebook can be found within the `notebooks` folder in this project.
 
@@ -30,7 +30,7 @@ Each notebook can be found within the `notebooks` folder in this project.
 ## Outline
 
 1. First you will deploy a CloudFormation template that will create an S3 bucket for data storage, a SageMaker Notebook Instance where the exercises are executed, IAM policies for the Notebook Instance, and it will clone this repository into the Notebook Instance so you are ready to get started.
-1. Next you will open the `Train_and_Evaluate_Predictors.ipynb` to get started.
+1. Next you will open the `Incorporating_Related_Time_Series_dataset_to_your_Predictor.ipynb` to get started.
 1. This notebook will guide you through the process of the other notebooks until you have a working and evaluated forecast.
 
 
